@@ -1,3 +1,5 @@
+@include-when-export url(https://cdn.jsdelivr.net/gh/kwhao/cn-gov-doc-style@main/css/font.css);
+
 :root {
     --bg-color: #fff;
     --font-initial-size: 44pt;
@@ -15,26 +17,6 @@
     --font-sixth-size: 7.5;
     --font-sixth-small-size: 6.5pt;
     --font-title-red: #ED1B23;
-}
-
-@font-face {
-    font-family: "FangSong";
-    src: url("../fonts/FangSong.ttf");
-}
-
-@font-face {
-    font-family: "KaiTi";
-    src: url("../fonts/KaiTi.ttf");
-}
-
-@font-face {
-    font-family: "SimHei";
-    src: url("../fonts/SimHei.ttf");
-}
-
-@font-face {
-    font-family: "FZXBSJW";
-    src: url("../fonts/FZXBSJW.TTF");
 }
 
 html {
