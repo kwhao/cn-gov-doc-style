@@ -1,0 +1,138 @@
+:root {
+    --bg-color: #fff;
+    --font-initial-size: 44pt;
+    --font-initial-small-size: 36pt;
+    --font-first-size: 26pt;
+    --font-first-small-size: 24pt;
+    --font-second-size: 22pt;
+    --font-second-small-size: 18pt;
+    --font-third-size: 16pt;
+    --font-third-small-size: 15pt;
+    --font-forth-size: 14pt;
+    --font-forth-small-size: 12pt;
+    --font-fifth-size: 10.5pt;
+    --font-fifth-small-size: 9pt;
+    --font-sixth-size: 7.5;
+    --font-sixth-small-size: 6.5pt;
+    --font-title-red: #ED1B23;
+}
+
+@font-face {
+    font-family: "FangSong";
+    src: url("/font/FangSong.ttf");
+}
+
+@font-face {
+    font-family: "KaiTi";
+    src: url("/font/KaiTi.ttf");
+}
+
+@font-face {
+    font-family: "SimHei";
+    src: url("/font/SimHei.ttf");
+}
+
+@font-face {
+    font-family: "FZXBSJW";
+    src: url("/font/FZXBSJW.TTF");
+}
+
+html {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif, FangSong;
+}
+
+body {
+    margin: auto;
+    padding: 34.58mm 26mm 32.58mm 28mm;
+    width: 210mm;
+    /* height: 296mm; */
+    text-align: left;
+    overflow-x: hidden;
+    overflow: scroll;
+    box-shadow: 0 .5mm 2mm rgba(0, 0, 0, .3);
+}
+
+p {
+    margin: 0;
+    font-weight: lighter;
+    font-family: "Times New Roman", FangSong;
+    font-size: var(--font-third-size);
+    letter-spacing: 2pt;
+    line-height: 29.45pt;
+    text-indent: 2em;
+    text-align: justify;
+}
+
+doch {
+    display: block;
+    text-align: center;
+    color: var(--font-title-red);
+    font-family: "Times New Roman", FZXBSJW;
+    line-height: 100%;
+    font-size: var(--font-initial-size);
+}
+
+docsh {
+    display: block;
+    text-align: center;
+    color: black;
+    line-height: var(--font-second-size);
+    font-size: var(--font-fourth-size);
+    font-family: "Times New Roman", FangSong;
+    border-bottom: 2.25pt var(--font-title-red) solid;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: black;
+    font-family: "Times New Roman", FZXBSJW;
+    text-align: center;
+}
+
+h1 {
+    font-size: var(--font-second-size);
+    line-height: 35.45pt;
+    font-weight: lighter;
+}
+
+ih1,
+ih2,
+ih3,
+ih4,
+ih5,
+ih6 {
+    color: black;
+    font-family: SimHei;
+}
+
+ih3 {
+    font-size: var(--font-third-size);
+}
+
+note {
+    font-family: KaiTi;
+}
+
+p:has(> doch) {
+    text-indent: 0;
+}
+
+p:has(> docsh) {
+    text-indent: 0;
+    margin-top: var(--font-first-size);
+}
+
+p:has(> apl) {
+    text-indent: 0;
+}
+
+p:has(> sign) {
+    text-indent: 0;
+    text-align: right;
+}
