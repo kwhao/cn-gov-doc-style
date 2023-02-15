@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "FangSong";
+    src: url("https://cdn.jsdelivr.net/gh/kwhao/cn-gov-doc-style@main/fonts/FangSong.ttf");
+}
+
+@font-face {
+    font-family: "KaiTi";
+    src: url("https://cdn.jsdelivr.net/gh/kwhao/cn-gov-doc-style@main/fonts/KaiTi.ttf");
+}
+
+@font-face {
+    font-family: "SimHei";
+    src: url("https://cdn.jsdelivr.net/gh/kwhao/cn-gov-doc-style@main/fonts/SimHei.ttf");
+}
+
+@font-face {
+    font-family: "FZXBSJW";
+    src: url("https://cdn.jsdelivr.net/gh/kwhao/cn-gov-doc-style@main/fonts/FZXBSJW.TTF");
+}
