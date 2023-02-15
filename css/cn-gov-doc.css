@@ -1,4 +1,4 @@
-@include url(https://cdn.jsdelivr.net/gh/kwhao/cn-gov-doc-style@main/css/font.css);
+@import url(https://cdn.jsdelivr.net/gh/kwhao/cn-gov-doc-style@main/css/font.css);
 
 :root {
     --bg-color: #fff;
