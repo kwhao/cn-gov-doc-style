@@ -19,22 +19,22 @@
 
 @font-face {
     font-family: "FangSong";
-    src: url("/font/FangSong.ttf");
+    src: url("/fonts/FangSong.ttf");
 }
 
 @font-face {
     font-family: "KaiTi";
-    src: url("/font/KaiTi.ttf");
+    src: url("/fonts/KaiTi.ttf");
 }
 
 @font-face {
     font-family: "SimHei";
-    src: url("/font/SimHei.ttf");
+    src: url("/fonts/SimHei.ttf");
 }
 
 @font-face {
     font-family: "FZXBSJW";
-    src: url("/font/FZXBSJW.TTF");
+    src: url("/fonts/FZXBSJW.TTF");
 }
 
 html {
